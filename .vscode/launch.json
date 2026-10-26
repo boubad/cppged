@@ -1,0 +1,114 @@
+{
+  // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+  // Pointez pour afficher la description des attributs existants.
+  // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Windows-Debug",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/build/x64-debug/testinfoged/testinfoged.exe",
+      "args": [
+        "test.ged"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/data",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "Windows-Release",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/build/x64-release/testinfoged/testinfoged.exe",
+      "args": [
+        "test.ged"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/data",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "linux-Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/build/linux-debug/testinfoged/testinfoged",
+      "args": [
+        "test.ged"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/data",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Activer l'impression en mode Pretty pour gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Définir la version désassemblage sur Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Kylin C++ Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/build/linux-debug/testinfoged/testinfoged",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/data",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "miDebuggerPath": "/usr/bin/gdb"
+    },
+    {
+      "name": "linux-Release",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/build/linux-release/testinfoged/testinfoged",
+      "args": [
+        "test.ged"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/data",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Activer l'impression en mode Pretty pour gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Définir la version désassemblage sur Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "type": "cmake",
+      "request": "launch",
+      "name": "Debug portfile(s)",
+      "cmakeDebugType": "external",
+      "pipeName": "/tmp/vcpkg_ext_portfile_dbg",
+      "preLaunchTask": "Debug vcpkg commands"
+    }
+  ]
+}

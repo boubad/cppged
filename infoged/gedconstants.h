@@ -1,0 +1,171 @@
+#pragma once
+#ifndef GEDCONSTANTS_H
+#define GEDCONSTANTS_H
+#include "mydefs.h"
+//////////////////////////////
+namespace infoged {
+/////////////////////////
+class gedconstants {
+public:
+  //
+  static const string GED_ABBR;
+  static const string GED_ADDR;
+  static const string GED_ADOP;
+  static const string GED_ADR1;
+  static const string GED_ADR2;
+  static const string GED_ADR3;
+  static const string GED_AFN;
+  static const string GED_AGE;
+  static const string GED_AGNC;
+  static const string GED_AKAN;
+  static const string GED_ALIA;
+  static const string GED_ANCE;
+  static const string GED_ANCI;
+  static const string GED_ANUL;
+  static const string GED_ASPE;
+  static const string GED_ASPF;
+  static const string GED_ASPL;
+  static const string GED_ASPM;
+  static const string GED_ASPS;
+  static const string GED_ASPV;
+  static const string GED_ASSO;
+  static const string GED_AUTH;
+  static const string GED_BAPL;
+  static const string GED_BAPM;
+  static const string GED_BARM;
+  static const string GED_BASM;
+  static const string GED_BIRT;
+  static const string GED_BLES;
+  static const string GED_BURI;
+  static const string GED_CALN;
+  static const string GED_CAST;
+  static const string GED_CAUS;
+  static const string GED_CENS;
+  static const string GED_CHAN;
+  static const string GED_CHAR;
+  static const string GED_CHIL;
+  static const string GED_CHR;
+  static const string GED_CHRA;
+  static const string GED_CITY;
+  static const string GED_CONC;
+  static const string GED_CONF;
+  static const string GED_CONL;
+  static const string GED_CONT;
+  static const string GED_COPR;
+  static const string GED_CORP;
+  static const string GED_CTRY;
+  static const string GED_CREM;
+  static const string GED_DATA;
+  static const string GED_DATE;
+  static const string GED_DEAT;
+  static const string GED_DESC;
+  static const string GED_DESI;
+  static const string GED_DEST;
+  static const string GED_DIV;
+  static const string GED_DIVF;
+  static const string GED_DSCR;
+  static const string GED_EDUC;
+  static const string GED_EMAIL;
+  static const string GED_EMIG;
+  static const string GED_ENDL;
+  static const string GED_ENGA;
+  static const string GED_EVEN;
+  static const string GED_FACT;
+  static const string GED_FAM;
+  static const string GED_FAMC;
+  static const string GED_FAMF;
+  static const string GED_FAMS;
+  static const string GED_FAX;
+  static const string GED_FAXX;
+  static const string GED_FCOM;
+  static const string GED_FILE;
+  static const string GED_FONE;
+  static const string GED_FORM;
+  static const string GED_GEDC;
+  static const string GED_GIVF;
+  static const string GED_GIVN;
+  static const string GED_GRAD;
+  static const string GED_HEAD;
+  static const string GED_HUSB;
+  static const string GED_IDNO;
+  static const string GED_IMMI;
+  static const string GED_INDI;
+  static const string GED_LANG;
+  static const string GED_LATI;
+  static const string GED_LONG;
+  static const string GED_MAP;
+  static const string GED_MARB;
+  static const string GED_MARC;
+  static const string GED_MARL;
+  static const string GED_MARR;
+  static const string GED_MARS;
+  static const string GED_MEDI;
+  static const string GED_NAME;
+  static const string GED_NATI;
+  static const string GED_NATU;
+  static const string GED_NCHI;
+  static const string GED_NICK;
+  static const string GED_NMR;
+  static const string GED_NOTE;
+  static const string GED_NPFX;
+  static const string GED_NSFX;
+  static const string GED_OBJE;
+  static const string GED_OCCU;
+  static const string GED_ORDI;
+  static const string GED_ORDN;
+  static const string GED_PAGE;
+  static const string GED_PEDI;
+  static const string GED_PHON;
+  static const string GED_PLAC;
+  static const string GED_POST;
+  static const string GED_PROB;
+  static const string GED_PROP;
+  static const string GED_PUBL;
+  static const string GED_QUAY;
+  static const string GED_REFN;
+  static const string GED_RELA;
+  static const string GED_RELI;
+  static const string GED_REPO;
+  static const string GED_RESI;
+  static const string GED_RESN;
+  static const string GED_RETI;
+  static const string GED_RFN;
+  static const string GED_RIN;
+  static const string GED_ROLE;
+  static const string GED_ROMN;
+  static const string GED_SEX;
+  static const string GED_SFNM;
+  static const string GED_SFXA;
+  static const string GED_SFXX;
+  static const string GED_SLGC;
+  static const string GED_SLGS;
+  static const string GED_SPFX;
+  static const string GED_SOUR;
+  static const string GED_SSN;
+  static const string GED_STAT;
+  static const string GED_STAE;
+  static const string GED_SUBM;
+  static const string GED_SUBN;
+  static const string GED_SURN;
+  static const string GED_SURNF;
+  static const string GED_TEMP;
+  static const string GED_TEXT;
+  static const string GED_TIME;
+  static const string GED_TITL;
+  static const string GED_TRLR;
+  static const string GED_TYPE;
+  static const string GED_VERS;
+  static const string GED_WIFE;
+  static const string GED_WILL;
+  static const string GED_WWWW;
+  //
+  static const string GED_WTUSER;
+  static const string GED_WTPRIM;
+  static const string GED_WTUID;
+  static const string GED_WTMARNM;
+
+}; // class GedConstants
+/////////////////////////
+} // namespace infoged
+/////////////////////////////
+#endif
